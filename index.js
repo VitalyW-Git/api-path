@@ -56,7 +56,7 @@ let apiPathTemplates =
     "/api/items/%id%/%salary%"
   ];
 
-const api = new Api(user);
+const api = new Api();
 
 const apiPaths = apiPathTemplates.map((template) =>
 {
